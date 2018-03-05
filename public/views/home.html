@@ -1,0 +1,150 @@
+<div class="row paddingTop">
+    <div class="col-md-2 col-sm-2" style="margin-top: 20px">
+        <button type="button" class="btn btn-primary btn-block" ui-sref="mobiles">Mobiles</button>
+        <button type="button" class="btn btn-primary btn-block" ui-sref="clothes">Fashion</button>
+        <button type="button" class="btn btn-primary btn-block" ui-sref="sports">Sports</button>
+    </div>
+    <div class="col-md-10 col-sm-10" " >
+<!-- ================
+Mobiles Corousel 
+================-->
+        <div class="row">
+            <div class="col-md-11 col-sm-11 col-xs-11">
+                <h3>Mobile</h3>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+                <h1><button type="button" class="btn btn-primary btn-md" ui-sref="mobiles">See all</button></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel slide" id="mobileCorousel" ">
+                <div class="carousel-inner" align="center">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-xs-3" ng-repeat="x in mobilesMock.slice(0,4)">
+                                <a href="#">
+                                <img ng-src="{{x.image[0]}}" class="img-responsive homeCorouselImageSize"></a>
+                            </div>
+                            <div class="col-xs-3" ng-repeat="x in mobilesMock.slice(0,4)">
+                                <div>
+                                    <h5>{{x.name}}</h5></div>
+                                <h5>Rs : {{x.price}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-xs-3" ng-repeat="x in mobilesMock.slice(2,6)">
+                                <a href="#"><img ng-src="{{x.image[0]}}" class="img-responsive homeCorouselImageSize"></a>
+                            </div>
+                            <div class="col-xs-3" ng-repeat="x in mobilesMock.slice(2,6)">
+                                <div>
+                                    <h5>{{x.name}}</h5></div>
+                                <h5>Rs : {{x.price}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#mobileCorousel" data-slide="prev" style="background-image: none;color: blue;"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <a class="right carousel-control" href="#mobileCorousel" data-slide="next" style="background-image: none;color: blue;"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+        </div>
+        <!-- ================
+Closing of Mobiles Corousel 
+================-->
+        <!-- ================
+Sports Corousel 
+================-->
+        <div class="row">
+            <div class="col-md-11 col-sm-11 col-xs-11">
+                <h3>Sports</h3>
+            </div>
+            <div class="col-md-1 col-sm-1 col-xs-1">
+                <h1><button type="button" class="btn btn-primary btn-md" ui-sref="sports">See all</button></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel slide" id="SportsCarousel" >
+                <div class="carousel-inner" align="center">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-xs-3" ng-repeat="x in sports.slice(0,4)">
+                                <a href="#">
+                                <img ng-src="{{x.image[0]}}" class="img-responsive sportsCorousel" ></a>
+                            </div>
+                            <div class="col-xs-3" ng-repeat="x in sports.slice(0,4)">
+                                <div>
+                                    <h5>{{x.name}}</h5></div>
+                                <h5>Rs : {{x.price}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-xs-3" ng-repeat="x in sports.slice(2,6)">
+                                <a href="#"><img ng-src="{{x.image[0]}}" class="img-responsive sportsCorousel" ></a>
+                            </div>
+                            <div class="col-xs-3" ng-repeat="x in sports.slice(2,6)">
+                                <div>
+                                    <h5>{{x.name}}</h5></div>
+                                <h5>Rs : {{x.price}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#SportsCarousel" data-slide="prev" style="background-image: none;color: blue"><i class="glyphicon glyphicon-chevron-left"  ></i></a>
+                <a class="right carousel-control" href="#SportsCarousel" data-slide="next" style="background-image: none ;color: blue"><i class="glyphicon glyphicon-chevron-right" ></i></a>
+            </div>
+        </div>
+<!-- ================
+Closing of Sports Corousel 
+================-->
+<!-- ================
+Opening of Clothing Corousel 
+================-->
+        <div class="row">
+            <div class="col-md-11 col-sm-11">
+                <h3>Clothing</h3>
+            </div>
+            <div class="col-md-1 col-sm-1">
+                <h1><button type="button" class="btn btn-primary btn-md" ui-sref="clothes">See all</button></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="carousel slide" id="clothingCorousel" >
+                <div class="carousel-inner" align="center">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-xs-3" ng-repeat="x in clothingsMock.slice(0,4)">
+                                <a href="#">
+                                <img ng-src="{{x.image[0]}}" class="img-responsive clothingCorousel" ></a>
+                            </div>
+                            <div class="col-xs-3" ng-repeat="x in clothingsMock.slice(0,4)">
+                                <div>
+                                    <h5>{{x.name}}</h5></div>
+                                <h5>Rs : {{x.price}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-xs-3" ng-repeat="x in clothingsMock.slice(4,8)">
+                                <img ng-src="{{x.image[0]}}" class="img-responsive clothingCorousel" >
+                            </div>
+                            <div class="col-xs-3" ng-repeat="x in clothingsMock.slice(4,8)">
+                                <div>
+                                    <h5>{{x.name}}</h5></div>
+                                <h5>Rs : {{x.price}}</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#clothingCorousel" data-slide="prev" style="background-image: none;color: blue"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <a class="right carousel-control" href="#clothingCorousel" data-slide="next" style="background-image: none;color: blue"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+        </div>
+        <!-- ================
+Closing of Clothing Corousel 
+================-->
+    </div>
+</div>

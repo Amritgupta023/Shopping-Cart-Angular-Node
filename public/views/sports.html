@@ -1,0 +1,53 @@
+<div class="row" style="padding-top: 65px">
+    <!-- {{mobilesMock[0].name}} -->
+    <div class="col-md-2" style="margin-top: 50px">
+        <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo" style="background-color: #2e3e4e">Category</button>
+        <div id="demo" class="collapse">
+            <div class="row" style="margin-left: 10px;margin-right: 10px">
+                <button type="button" class="btn btn-primary btn-block" ui-sref="mobiles">Mobiles</button>
+                <button type="button" class="btn btn-primary btn-block" ui-sref="clothes">Fashion</button>
+                <button type="button" class="btn btn-primary btn-block" ui-sref="sports">Sports</button>
+            </div>
+        </div>
+        <br>
+
+        <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#filter" style="background-color: #2e3e4e">Filters</button>
+        <div id="filter" class="collapse">
+            <div class="row" style="margin-top: 30px;margin-left: 10px;margin-left: 10px">
+            Brands:
+            <form>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-change="myFunc()" ng-model="arr[0]" ng-true-value="Cricket">Cricket</label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-change="myFunc()" ng-model="arr[1]" ng-true-value="Tennis">Tennis</label>
+                </div>
+                <div class="checkbox disabled">
+                    <label>
+                        <input type="checkbox" ng-change="myFunc()" ng-model="arr[2]" ng-true-value="Football">Football</label>
+                </div>
+            </form>}
+            <p id="price"><b>Price</b></p>
+            <rzslider rz-slider-model="slider.min" rz-slider-high="slider.max" rz-slider-options="slider.options"></rzslider>
+        </div>
+        </div>
+
+
+        
+    </div>
+    <div class="col-md-10">
+        <div class="col-md-3 col-xs-6 col-sm-4 col-lg-3" ng-repeat="x in abc" align="center" ng-click="getSportMock(x.id)" ui-sref="plpSport" style="margin-top: 3%;">
+            <img ng-src="{{x.image[0]}}" class="img-responsive" style="height: 200px;width:200px">
+            <h5>{{x.name}}</h5>
+            <h5>Rs : {{x.price}}</h5>
+            <button type="button" class="btn btn-primary btn-block" style="margin-bottom: 5%;width: 100px">Details</button>
+        </div>
+        <div ng-if="abc.length === 0">
+            <div class="jumbotron" align="center">
+                <h2>No items found</h20
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,95 @@
+<div class="row" style="padding-top: 65px">
+    <div class="col-sm-1" align="center">
+        <div class="row">
+            <img src="{{perticularClothingData.image[0]}}" ng-click="myfunction(perticularClothingData.image[0])" style="height: 100px;width: auto;">
+        </div>
+        <div class="row">
+            <img src="{{perticularClothingData.image[1]}}" ng-click="myfunction(perticularClothingData.image[1])" style="height: 100px;width: auto;">
+        </div>
+        <div class="row">
+            <img src="{{perticularClothingData.image[2]}}" ng-click="myfunction(perticularClothingData.image[2])" style="height: 100px;width: auto;">
+        </div>
+    </div>
+    <div class="col-sm-5" align="center">
+        <img ng-src="{{mainImage}} " style="height: 450px;width:300px;">
+        <div class="row">
+            <button type="button" class="btn btn-primary btn-md" ng-click=SendIdToCart(perticularClothingData.id, "clothings") ui-sref="toCart" style="margin-top: 10%">Add To Cart</button>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <h3>{{perticularClothingData.name}}</h3>
+        <h4>RS:{{perticularClothingData.price}}</h4>
+        <table class="table table-hover">
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>{{perticularClothingData.name}}</td>
+                </tr>
+                <tr>
+                    <td>Brand</td>
+                    <td>{{perticularClothingData.brand}}</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>{{perticularClothingData.gender}}</td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td>
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>Color</td>
+                                    <td>{{perticularClothingData.desc.color}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Fabric</td>
+                                    <td>{{perticularClothingData.desc.fabric}}</td>
+                                </tr>
+                                <tr>
+                                    <td>pattern</td>
+                                    <td>{{perticularClothingData.desc.pattern}}gm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>warranty</td>
+                    <td>{{perticularClothingData.warranty}}</td>
+                </tr>
+            </tbody>
+            <h3>Reviews</h3>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="x in perticularClothingData.reviews ">
+                        <td>{{x.by}}</td>
+                        <td>{{x.comment}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </table>
+        <!-- <div class="row">
+            <h3>Reviews</h3>
+            <div class="row" ng-repeat="x in perticularClothingData.reviews ">
+               <h4>{{x.by}}</h4>  
+                <h5>{{x.comment}}</h5>
+            </div>
+        </div> -->
+    </div>
+</div>
+<!-- <div class="row">
+   <h3>Reviews</h3>
+   <div class="row" ng-repeat="x in perticularClothingData.reviews ">
+          Name:{{x.by}}
+          <br>
+          Comment:{{x.comment}}
+   </div>
+    
+</div> -->

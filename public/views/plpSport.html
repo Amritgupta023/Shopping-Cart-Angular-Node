@@ -1,0 +1,58 @@
+<div class="row" style="padding-top: 65px">
+    <div class="col-sm-1">
+        <div class="row">
+            <img src="{{perticularSportsData.image[0]}}" ng-click="myfunction(perticularSportsData.image[0])" style="height: 100px;width:100px;">
+        </div>
+        <div class="row">
+            <img src="{{perticularSportsData.image[1]}}" ng-click="myfunction(perticularSportsData.image[1])" style="height: 100px;width:100px;">
+        </div>
+        <div class="row">
+            <img src="{{perticularSportsData.image[2]}}" ng-click="myfunction(perticularSportsData.image[2])" style="height: 100px;width: 100px;">
+        </div>
+    </div>
+    <div class="col-sm-5" align="center">
+        <img ng-src="{{mainImage}}" style="height: 300px;width: 300px"><br>
+        <button type="button" class="btn btn-primary btn-md" ng-click=SendIdToCart(perticularSportsData.id,x"sports") ui-sref="toCart" style="margin-top: 15%">Add To Cart</button>
+    </div>
+    <div class="col-sm-6">
+        <h4>{{perticularSportsData.name}}</h4>
+        <h4>RS:{{perticularSportsData.price}}</h4>
+        <table class="table table-hover">
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>{{perticularSportsData.name}}</td>
+                </tr>
+                <tr>
+                    <td>Brand</td>
+                    <td>{{perticularSportsData.brand}}</td>
+                </tr>
+                <tr>
+                    <td>features</td>
+                    <td>
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>Material</td>
+                                    <td>{{perticularSportsData.features.Material}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Color</td>
+                                    <td>{{perticularSportsData.features.color}}</td>
+                                </tr>
+                                <tr>
+                                    <td>Weight</td>
+                                    <td>{{perticularSportsData.features.Weight}}gm</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>warranty</td>
+                    <td>{{perticularSportsData.warranty}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

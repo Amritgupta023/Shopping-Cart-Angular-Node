@@ -1,0 +1,75 @@
+<div class="row" style="padding-top: 65px">
+    <div class="col-sm-1" align="center">
+        <div class="row">
+            <img ng-src={{plpMobileData.image[0]}} ng-click="myfunction(plpMobileData.image[0],0)" height="100px" width="auto" style={{image0}}>
+        </div>
+        <div class="row">
+            <img ng-src={{plpMobileData.image[1]}} ng-click="myfunction(plpMobileData.image[1],1)" height="100px" width="auto" style={{image1}}>
+        </div>
+        <div class="row">
+            <img ng-src={{plpMobileData.image[2]}} ng-click="myfunction(plpMobileData.image[2],2)" height="100px" width="auto" style={{image2}}>
+        </div>
+    </div>
+    <div class="col-sm-5" style="margin-bottom: 50px" align="center">
+        <img ng-src={{mainImage}}><br><br>
+        <div class="row">
+           
+           	<button type="button" class="btn btn-primary btn-md" ng-click=SendIdToCart(plpMobileData.id,"mobiles")  ui-sref="toCart">Add To Cart</button>
+           
+           
+        	
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <h4>{{plpMobileData.name}}</h4>
+        <table class="table table-hover">
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    <td>{{plpMobileData.name}}</td>
+                </tr>
+                <tr>
+                    <td>Brand</td>
+                    <td>{{plpMobileData.brand}}</td>
+                </tr>
+                <tr>
+                    <td>features</td>
+                    <td>
+                        <table class="table table-hover">
+                            <tbody>
+                                <tr>
+                                    <td>screen</td>
+                                    <td>{{plpMobileData.features.screen}}</td>
+                                </tr>
+                                <tr>
+                                    <td>processor</td>
+                                    <td>{{plpMobileData.features.processor}}</td>
+                                </tr>
+                                <tr>
+                                    <td>os</td>
+                                    <td>{{plpMobileData.features.os}}</td>
+                                </tr>
+                                <tr>
+                                    <td>camera</td>
+                                    <td>{{plpMobileData.features.camera}}</td>
+                                </tr>
+                                <tr>
+                                    <td>ram</td>
+                                    <td>{{plpMobileData.features.ram}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>warranty</td>
+                    <td>{{plpMobileData.features.warranty}}</td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td>{{plpMobileData.features.color}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

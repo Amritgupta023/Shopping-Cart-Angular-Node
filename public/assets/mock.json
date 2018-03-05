@@ -1,0 +1,955 @@
+{
+    "mobiles": [
+        {
+            "id": "m01",
+            "name": "Samsung Galaxy On",
+            "brand": "samsung",
+            "image": ["assets/images/samsunggalaxyon1.png", "assets/images/samsunggalaxyon2.png", "assets/images/samsunggalaxyon3.png"],
+            "price": 12900,
+            "features":
+            {
+                "screen": "5.5 inch Full HD Display",
+                "processor": "Exynos 7870 Octa Core 1.6 GHz Processor",
+                "os": "Android Marshmallow 6",
+                "battery": "4100 mAh Li-Polymer Battery",
+                "camera": "13MP Rear Camera | 8MP Front Camera",
+                "ram": "3 GB RAM",
+                "rom": "64 GB ROM",
+                "warranty": "Brand Warranty of 1 Year",
+                "color": "Gold"
+            },
+            "desc": "The On Nxt is a performance beast, thanks to the powerful 1.6 GHz, octa-core processor that’s aided by an impressive amount of RAM (3 GB). Furthermore, it has 64 GB of internal memory, so you can store loads of photos, videos, apps and more.",
+            "reviews": [
+            {
+                "title": "Decent Performance",
+                "comment": "  Decent camera - good in day light - Battery lasts a business day with full 4 G on -Fingerprint scanner works well  "
+            },
+            {
+                "title": "Worth every penny",
+                "comment": "The mobile is good enough for daily uses.. But battery & camera department lacks a little bit."
+            },
+            {
+                "title": "First Impression",
+                "comment": " So as usual i received the phone within 40hrs, Thanks to Gem-carT. "
+            }]
+        },
+        {
+            "id": "m02",
+            "name": "Samsung Galaxy J3 Pro",
+            "brand": "samsung",
+            "image": ["assets/images/samsunggalaxyj3pro1.png", "assets/images/samsunggalaxyj3pro2.png", "assets/images/samsunggalaxyj3pro3.png"],
+            "price": 7990,
+            "features":
+            {
+                "screen": "5 inch Display",
+                "processor": "Spreadtrum Quad Core 1.5GHz Processor",
+                "os": "Android Marshmallow 6",
+                "battery": "2600 mAh Li-ion Battery",
+                "camera": "8MP Rear Camera | 5MP Front Camera",
+                "ram": "2 GB RAM",
+                "rom": "16 GB ROM",
+                "warranty": "Brand Warranty of 1 Year",
+                "color": "Black"
+            },
+            "desc": "Brilliant Display-With the Samsung Galaxy J3 Pro, you will get to enjoy the vivid colours that OLED displays are known for. Enjoy your favourite content on a compact, 12.63-cm (5) Super AMOLED display which makes the phone fit easily in the palm of your hand.",
+            "reviews": [
+            {
+                "title": "Simply awesome",
+                "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+            },
+            {
+                "title": "Wonderful",
+                "comment": "Nice display, But battery & camera department lacks a little bit."
+            },
+            {
+                "title": "Very Good",
+                "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+            }]
+        },
+        {
+            "id": "m03",
+            "name": "Samsung Galaxy J7 Nxt",
+            "brand": "samsung",
+            "image": ["assets/images/samsunggalaxyj7nxt1.png", "assets/images/samsunggalaxyj7nxt2.png", "assets/images/samsunggalaxyj7nxt3.png"],
+            "price": 11990,
+            "features":
+            {
+                "screen": "5.5 inch HD Display",
+                "processor": "Exynos Octa Core 1.6 GHz Processor",
+                "os": "Android Marshmallow 6",
+                "battery": "3100 mAh Li-ion Battery",
+                "camera": "13MP Rear Camera | 5MP Front Camera",
+                "ram": "3 GB RAM",
+                "rom": "32 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+                "color": "Gold"
+            },
+            "desc": "A phone catering to today’s needs, the Samsung Galaxy J7 Nxt is equipped with features like Samsung Pay Mini for a hassle-free digital payment experience. You can click delightful pictures on-the-go with the phone’s 13 MP rear camera and 5 MP front camera. This phone will be a delight for those who love clicking selfies owing to features like the Selfie Focus. This phone has a 3000 mAh battery.",
+            "reviews": [
+            {
+                "title": "Simply awesome",
+                "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+            },
+            {
+                "title": "Wonderful",
+                "comment": "Nice display, But battery & camera department lacks a little bit."
+            },
+            {
+                "title": "Very Good",
+                "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+            }]
+        },
+        {
+            "id": "m04",
+            "name": "Samsung Galaxy J7 Pro",
+            "brand": "samsung",
+            "image": ["assets/images/samsungj7pro1.png", "assets/images/samsungj7pro2.png", "assets/images/samsungj7pro3.png"],
+            "price": 19990,
+            "features":
+            {
+                "screen": "5.5 inch HD Display",
+                "processor": "Exynos Octa-Core 1.6GHz Processor",
+                "os": "Android Nougat 7.0",
+                "battery": "3600 mAh Li-ion Battery",
+                "camera": "13MP Rear Camera | 5MP Front Camera",
+                "ram": "3 GB RAM",
+                "rom": "64 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+                "color": "Black"
+            },
+            "desc": "From instant payment to instant sharing on social media, let the Samsung Galaxy J7 Pro simplify your daily tasks. This smartphone features 13 MP front and rear cameras so you can click stunning photos, as well as 64 GB of internal memory and 3 GB of RAM for fast, seamless performance.",
+            "reviews": [
+                {
+                    "title": "Wonderful",
+                    "comment": "Nice display, But battery & camera department lacks a little bit."
+                },
+                {
+                    "title": "Simply awesome",
+                    "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+                },
+
+                {
+                    "title": "Very Good",
+                    "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+                }
+            ]
+        },
+        {
+            "id": "m05",
+            "name": "Samsung Galaxy On",
+            "brand": "samsung",
+            "image": ["assets/images/samsungonmax1.png", "assets/images/samsungonmax2.png", "assets/images/samsungonmax3.png"],
+            "price": 15990,
+            "features":
+            {
+                "screen": "5.7 inch HD Display",
+                "processor": "MediaTek MTK6757V/WL 2.39GHz, 1.69GHz, Octa Core Processor",
+                "os": "Android Nougat 7.0",
+                "battery": "3300 mAh Li-ion Battery",
+                "camera": "13MP Rear Camera | 13MP Front Camera",
+                "ram": "4 GB RAM",
+                "rom": "32 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+                "color": "Black"
+            },
+            "desc": "From instant payment to instant sharing on social media, let the Samsung Galaxy J7 Pro simplify your daily tasks. This smartphone features 13 MP front and rear cameras so you can click stunning photos, as well as 64 GB of internal memory and 3 GB of RAM for fast, seamless performance.",
+            "reviews": [
+            {
+                "title": "Wonderful",
+                "comment": "Nice display, But battery & camera department lacks a little bit."
+            },
+            {
+                "title": "Very Good",
+                "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good samsung. Slim, stylish. "
+            },
+            {
+                "title": "Simply awesome",
+                "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+            }]
+        },
+        {
+            "id": "m06",
+            "name": "HTC Desire 630",
+            "brand": "htc",
+            "image": ["assets/images/htcdesire6301.png", "assets/images/htcdesire6302.png", "assets/images/htcdesire6303.png"],
+            "price": 9385,
+            "features":
+            {
+                "screen": "5 inch HD Display",
+                "processor": "Quad Core Processor MSM8928-AC Processor",
+                "os": "Android Nougat 7.0",
+                "battery": "2000 mAh Li-ion Battery",
+                "camera": "8MP Rear Camera | 5MP Front Camera",
+                "ram": "2 GB RAM",
+                "rom": "16 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+                "color": "Sprinkle White"
+            },
+            "desc": "Handset, Battery, AC Adapter, USB Sync Cable, Headset, Safety and Regulatory Guide, Quick Start Guide, Limited Warranty Statement, Customer Care Card",
+            "reviews": [
+            {
+                "title": "Worthless product",
+                "comment": "Don't buy this phone guys ,HTC desire630 is waste of money, I buy before 5 months n this phone is my last htc, Battery sucks without using phone"
+            },
+            {
+                "title": "Awesome phone with clear camera",
+                "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good . Slim, stylish. "
+            },
+            {
+                "title": "Wonderful",
+                "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+            }]
+        },
+        {
+            "id": "m07",
+            "name": "HTC One X9",
+            "brand": "htc",
+            "image": ["assets/images/htconex91.png", "assets/images/htconex92.png", "assets/images/htconex93.png"],
+            "price": 14300,
+            "features":
+            {
+                "screen": "5.5 inch HD Display",
+                "processor": "MediaTek Helio X10 64-bit Octa Core 2.2GHz Processor",
+                "os": "Android Nougat 7.0",
+                "battery": "3000 mAh Li-ion Battery",
+                "camera": "13MP Rear Camera | 5MP Front Camera",
+                "ram": "3 GB RAM",
+                "rom": "32 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile",
+                "color": "Carbon Grey"
+            },
+            "desc": "Anti-shake Lens, 1.12 micrometre Pixels, Auto Focus, BSI Sensor, Optical Image Stabilisation (OIS), f/2.0 Aperture and 27.9 mm Focal Length (74.8 Degree Wide Angle), Face Detection, Volume Button as Shutter Button, Volume Button to Zoom, Pro Mode with Manual Controls and RAW Format, HDR Mode, Panorama Mode ",
+            "reviews": [
+            {
+                "title": "terrible",
+                "comment": "Don't buy this phone guys ,HTC desire630 is waste of money, I buy before 5 months n this phone is my last htc, Battery sucks without using phone"
+            },
+            {
+                "title": "Wonderful",
+                "comment": " Good looking - But, the delivery agent do not good behaviour with customer to deliver the item. . "
+            },
+            {
+                "title": "Terrific",
+                "comment": " Fabulous handset in this price. Fast, more space, nice amoled display, very good . Slim, stylish. "
+            }]
+        },
+        {
+            "id": "m08",
+            "name": "HTC U11",
+            "brand": "htc",
+            "image": ["assets/images/htc-u11Front.png", "assets/images/htc-u11Back.png", "assets/images/htc-u11Side.png"],
+            "price": 45999,
+            "features":
+            {
+                "screen": "5.5 inch Quad HD Display",
+                "processor": "Qualcomm Snapdragon 835 64-bit Processor",
+                "os": "Android 8.0 (Oreo)",
+                "battery": "3000 mAH Battery",
+                "camera": "12MP Rear Camera|16MP Front Camera",
+                "ram": "6 GB RAM ",
+                "rom": "128 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+                "color": "Solar red"
+            },
+
+
+            "desc": "The HTC U11 doesn't just stop at offering a new age of phone interaction with Edge Sense; it offers much more than that. With an impressive 3D liquid glass surface, a spectacular camera, and stellar audio all packed in a water-resistant package, the HTC U11 is a smartphone that will take your mobile experience to the next level.",
+            "reviews": [
+            {
+                "title": "Ahmad",
+                "comment": "I was using this phone since 3 weeks. The phone is perfect and the battery is lasting three days"
+            },
+            {
+                "title": "Sansa",
+                "comment": "amazing phone very nice to use best in class all aspects"
+            },
+            {
+                "title": "Jessica",
+                "comment": "MY FIRST HTC PHONE and EXPERIENCE IS JUST AMAZING AFTER OWNING SAMSUNG AND IPHONE , IPHONE IS IN DIFFERENT LEAGUE BUT FOR ANDROID ECOSYSTEM .THIS IS THE PHONE .SMOOTH NO BLOATWARE CAMERA IS AWESOME. NO HEATING ISSUES .AMAZING BUY JUST GO FOR IT."
+            }]
+        },
+        {
+            "id": "m09",
+            "name": "Samsung s7 Edge",
+            "brand": "samsung",
+            "image": ["assets/images/samsung-s7-edgeFront.png", "assets/images/samsung-s7-edgeBack.png", "assets/images/samsung-s7-edgeSide.png"],
+            "price": 46170,
+            "features":
+            {
+                "screen": "5.5 inch Display",
+                "processor": "Octa Core",
+                "os": "Android Marshmallow 6.0",
+                "battery": "Non-removable Li-Ion 3600 mAh battery",
+                "camera": "12MP Rear Camera",
+                "ram": "4GB RAM",
+                "rom": "up to 256 GB (uses SIM 2 slot)",
+                "warranty": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box ",
+                "color": "black pearl"
+            },
+
+            "desc": "Android v6 Marshmallow operating system with 2.3GHz + 1.6GHz Exynos 8890 octa core processor, 4GB RAM, 128GB internal memory expandable up to 200GB and dual SIM dual-standby.",
+            "reviews": [
+            {
+                "title": "Hardy",
+                "comment": "The Motion Eye camera still doesn't have much effort to beat my S7 edge after Oreo update. Remains weird on lowlight."
+            },
+            {
+                "title": "Rick Ajmeri",
+                "comment": "Bye bye Iphone n welcome the gorgeous Sam7Edge...love this phone n nobody can beat this gadget..."
+            },
+            {
+                "title": "Prashanth",
+                "comment": "It's a beautiful and powerful phone."
+            }]
+        },
+        {
+            "id": "m10",
+            "name": "Note 8 ",
+            "brand": "samsung",
+            "image": ["assets/images/samsung-galaxy-noteFront.png", "assets/images/samsung-galaxy-noteBack.png", "assets/images/samsung-galaxy-noteSide.png"],
+            "price": 67300,
+            "features":
+            {
+                "screen": "6.3 inch Display",
+                "processor": "Octa Core",
+                "os": "Android Nougat 7.1.1",
+                "battery": "3300 mAh",
+                "camera": "12MPDual Camera Lens,Primary & Secondary Camera",
+                "ram": "6 GB RAM",
+                "rom": "64 GB ROM",
+                "warranty": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-box Accessories Including Batteries from the Date of Purchase.",
+                "color": "Maple Gold"
+            },
+
+            "desc": "Samsung Galaxy Note 8 is an Android Smartphone Designed, Developed and Marketed by Samsung Electronics",
+            "reviews": [
+            {
+                "title": "Adrian",
+                "comment": "I agree with the quick updates, that is absolutely a good thing. My iPhone 6 gets updates as soon as they are ready."
+            },
+            {
+                "title": "Rocky",
+                "comment": "I received a book instead of a Mobile....need justice in my case ."
+            },
+            {
+                "title": "David Ross",
+                "comment": "Fabulous handset in this price. Fast, more space, nice amoled display, very good . Slim, stylish."
+            }]
+        },
+        {
+            "id": "m11",
+            "name": "Apple iPhone 8 Plus ",
+            "brand": "apple",
+            "image": ["assets/images/apple-iphone-8-plusFront.png", "assets/images/apple-iphone-8-plusBack.png", "assets/images/apple-iphone-8-plusSide.png"],
+            "price": 65999,
+            "features":
+            {
+                "screen": "5.5 inch",
+                "processor": "A11 Bionic Chip with 64-bit Architecture, Neural Engine, Embedded M11 Motion Coprocessor",
+                "os": "iOS iOS 11",
+                "battery": "lithium-ion Battery",
+                "camera": "12MP + 12MP Dual Rear Camera | 7MP Front Camera",
+                "ram": "3GB RAM",
+                "rom": "64 GB ROM ",
+                "warranty": "Brand Warranty of 1 Year",
+                "color": "Space Grey"
+            },
+
+            "desc": "An all-new glass design, an updated camera, and a powerful chip, there’s so much to love about the iPhone 8 Plus. This iPhone brings you an augmented reality experience that’s more immersive than before. What’s more? You can charge your iPhone wirelessly!",
+            "reviews": [
+            {
+                "title": "Bobby",
+                "comment": "still no problem on battery my only complaint is memory and some apps in the store doesn't support"
+            },
+            {
+                "title": "Nitin Sharma",
+                "comment": "Camera is a little better and you notice it for sure. It is a lot better in low lights conditions."
+            },
+            {
+                "title": "Pradeep Somnath",
+                "comment": " Phone looks very great.... excellent to use... iphone makes their brand.... ya it is almost equal to iphone 7 plus with some upgradations"
+            }]
+        },
+        {
+            "id": "m12",
+            "name": "Apple iPhone 6",
+            "brand": "apple",
+            "image": ["assets/images/apple-iphone-6Front.png", "assets/images/apple-iphone-6Back.png", "assets/images/apple-iphone-6Side.png"],
+            "price": 25699,
+            "features":
+            {
+                "screen": "4.7 inch Retina HD Display",
+                "processor": "A8 Chip with 64-bit Architecture and M8 Motion Co-processor",
+                "os": "iOS 9",
+                "battery": "Li-Ion",
+                "camera": "8MP Rear Camera | 1.2MP Front Camera",
+                "ram": "3GB RAM",
+                "rom": "32 GB ROM ",
+                "warranty": "Brand Warranty of 1 Year",
+                "color": "Gold"
+            },
+
+            "desc": "Apple iPhone 6 Plus smartphone was launched in September 2014. The phone comes with a 5.50-inch touchscreen display with a resolution of 1080 pixels by 1920 pixels at a PPI of 401 pixels per inch",
+            "reviews": [
+            {
+                "title": "Priyank Dadiyal",
+                "comment": "Unhappy with performance of 32 GB phone. Screen is dull compared to other iPhone 6 and also have wifi connectivity Neither Flipkart nor seller supports exchange even within defined time."
+            },
+            {
+                "titlet": "Vipin Saklani",
+                "comment": "Flipkart Sale a damage product fast time with me on six year i am not again purchase in flipkart chor ho gya flipkart"
+            },
+            {
+                "title": "Shanky Parmar",
+                "comment": "Phone is heating too much while talking. please don't go to Flipkart never for this product."
+            }]
+        },
+        {
+
+
+            "id": "m13",
+            "name": "HTC U ULtra ",
+            "brand": "htc",
+            "image": ["assets/images/htc-u-ultraFront.png", "assets/images/htc-u-ultraBack.png", "assets/images/htc-u-ultraSide.png"],
+            "price": 29990,
+            "features":
+            {
+                "screen": "5.7 inch Display",
+                "processor": "Quad Core",
+                "os": "Android Nougat 7",
+                "battery": "3000 mAh Battery",
+                "camera": "12MP Rear Camera | 16MP Front Camera",
+                "ram": "4 GB RAM",
+                "rom": "64 GB ROM",
+                "warranty": "1 Year Manufacturer Warranty",
+                "color": "Sapphire Blue"
+            },
+
+            "desc": "Processor Type : Qualcomm Snapdragon 821 64-bit, 2.15 Ghz , Primary Camera Features: UltraPixel 2 with 1.55micrometer Pixel, PDAF + Laser Focus, BSI Sensor, Optical Image Stabilization ",
+            "reviews": [
+            {
+                "title": "Nagaraj Naik",
+                "comment": "Nice product"
+            },
+            {
+                "title": "K.M Suresh",
+                "comment": "Best Smartphone From HTC.Ultra Smooth No heating,NoLagging,Screendisplay ,amazing,Camera perfect"
+            },
+            {
+                "title": "Devraj Maluk",
+                "comment": "Good phone.value for money"
+            }]
+
+        },
+
+        {
+            "id": "m14",
+            "name": "HTC One 802d",
+            "brand": "htc",
+            "image": ["assets/images/htc-one-originalFront.png", "assets/images/htc-one-originalBack.png", "assets/images/htc-one-originalSide.png"],
+            "price": 35499,
+            "features":
+            {
+                "screen": "4.7 inch Full HD Display",
+                "processor": "Qualcomm Snapdragan 600 Processor",
+                "os": "Android Jelly Bean",
+                "battery": "2300 mAh",
+                "camera": "2.1MP Front Camera",
+                "ram": "2GB",
+                "rom": "32 GB",
+                "warranty": "1 Year for Mobile & 6 Months for Accessories",
+                "color": "Silver"
+            },
+
+            "desc": "Beauty need not just be in the eyes of the beholder with the HTC One that seamlessly blends timeless class with post-modern functionality to present a phone will reshape your smartphone experience.",
+            "reviews": [
+            {
+                "title": "Aditya Agarwal",
+                "comment": "Two times defective handset, kudos! WS Retailers 30 day return policy"
+            },
+            {
+                "title": "Yashwant Singh",
+                "comment": "please be careful while ordering the model, check the model number - details in the review below"
+            },
+            {
+                "title": "Praveen Nayar",
+                "comment": "Bad experience with this purchase - HTC one dual sim Silver"
+            }]
+        },
+        {
+            "id": "m15",
+            "name": "Samsung Galaxy A9 Pro",
+            "brand": "samsung",
+            "image": ["assets/images/samsung-galaxy-a9Front.png", "assets/images/samsung-galaxy-a9Back.png", "assets/images/samsung-galaxy-a9Side.png"],
+            "price": 25999,
+            "features":
+            {
+                "screen": "6 inch Full HD Display",
+                "processor": "Qualcomm Snapdragon 652 Octa Core 1.8GHz Processor",
+                "os": "Android Marshmallow 6",
+                "battery": "5000 mAh Li-Ion Battery",
+                "camera": "16MP Rear Camera | 8MP Front Camera",
+                "ram": "4 GB RAM",
+                "rom": "32 GB ROM",
+                "warranty": "Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories",
+                "color": "White"
+            },
+
+            "desc": "The flaunt-worthy Samsung Galaxy A9 Pro offers glitch-free performance along with a long battery life.",
+            "reviews": [
+            {
+                "title": "Mustansir",
+                "comment": "It feels like a premium phone altogether, its not too heavy for 210gms"
+            },
+            {
+                "title": "Suman Gupta",
+                "comment": "It is awesome phone....it has good battery backup...it last for 1.5 days with heavy use..camera quality is superb"
+            },
+            {
+                "title": "Robin Arora",
+                "comment": "Awesome Phone...Best battery backup..."
+            }]
+        }
+
+
+    ],
+    "clothings": [
+        {
+            "id": "c01",
+            "name": "Rain & Rainbow",
+            "gender": "female",
+            "brand": "Biba",
+            "price": "1200",
+            "desc":
+            {
+                "color": "multiple",
+
+                "fabric": "cotton",
+                "type": "dress",
+                "pattern": "floral print"
+            },
+            "image": ["./assets/images/blazer1.png", "./assets/images/blazer2.png", "./assets/images/blazer3.png"],
+            "reviews": [
+            {
+                "by": "Shruti",
+                "comment": "amazing dress, good quality material"
+            },
+            {
+                "by": "Ritu",
+                "comment": "It fits perfectly fine and true to size . I like to pair it with some gray leggings. "
+            },
+            {
+                "by": "Seema",
+                "comment": "stylish n comfortable !!"
+            }]
+
+
+        },
+
+        {
+            "id": "c02",
+            "name": "Blue Tunic",
+            "gender": "female",
+            "brand": "Vero Moda",
+            "price": "700",
+            "desc":
+            {
+                "color": "blue",
+
+
+                "fabric": "crepe",
+                "type": "top",
+                "pattern": "printed"
+            },
+            "image": ["./assets/images/top1.png ", "./assets/images/top2.png ", "./assets/images/top3.png "],
+
+            "reviews": [
+            {
+                "by": "Nupur",
+                "comment": "very happy with the service and quality of fabric!"
+            },
+            {
+                "by": "Nita",
+                "comment": "very classy, worth the money"
+            },
+            {
+                "by": "Shirin",
+                "comment": "Great quality and perfect fitting"
+            }]
+
+
+        },
+
+        {
+            "id": "c03",
+            "name": "Long Shrug",
+            "gender": "female",
+            "brand": "Vero Moda",
+            "price": "700",
+            "desc":
+            {
+                "color": "pink",
+
+
+                "fabric": "wool",
+                "type": "shrug",
+                "pattern": "plain"
+            },
+            "image": ["./assets/images/shrug1.png", "./assets/images/shrug2.png", "./assets/images/shrug3.png"],
+            "reviews": [
+            {
+                "by": "Annu",
+                "comment": "great quality,perfect fit,nice color.Exactly like the picture.This is what I would call great value purchase "
+            },
+            {
+                "by": "Tina ",
+                "comment": "Absolutely loved this dress!The length was perfect and the material is great.Very chic and fits perfectly"
+            },
+            {
+                "by ": "Riya",
+                "comment": "Excellent material and beautiful design,it’ s just like the photos online."
+            }]
+
+
+        },
+
+        {
+            "id": "c04",
+            "name": " Comfy Sweater",
+            "gender": "female",
+            "brand": "Tommy Hilfiger",
+            "price": "800",
+            "desc":
+            {
+                "color": "yellow",
+                "price": "800",
+
+                "fabric": "wool",
+                "type": "sweater",
+                "pattern": "plain"
+            },
+            "image": ["./assets/images/sweater1.png", "./assets/images/sweater2.png", "./assets/images/sweater3.png"],
+            "reviews": [
+            {
+                "by": "Masha",
+                "comment": "another dashing clothing item added to my collection!"
+            },
+            {
+                "by": "Kanika",
+                "comment": "beautiful sweater,amazing fabric, super comfortable"
+            },
+            {
+                "by": "Mehak",
+                "comment": "I love this sweater it’s one of my favourites. It has a very flattering fit."
+            }]
+
+
+
+        },
+
+        {
+            "id": "c05",
+            "name": "A-Line Kurta",
+            "gender": "female",
+            "brand": "Biba",
+            "price": "1000",
+            "desc":
+            {
+                "color": "beige",
+
+
+                "fabric": "cotton",
+                "type": "kurta",
+                "pattern": "printed"
+            },
+            "image": ["./assets/images/kurta1.png", "./assets/images/kurta2.png", "./assets/images/kurta3.png"],
+            "reviews": [
+            {
+                "by": "Radhika",
+                "comment": "perfect fit and great quality."
+            },
+            {
+                "by": "Arshiya ",
+                "comment ": "Great addition to wardrobe "
+            },
+            {
+                "by ": "Roohie ",
+                "comment ": "really love the pattern on this kurta and it is exactly as it looks "
+            }]
+
+
+        },
+
+        {
+            "id": "c06",
+            "name": "Casual Blazer",
+            "gender": "female",
+            "brand": "Tommy Hilfiger",
+            "price": "1200",
+            "desc":
+            {
+                "color": "black",
+
+
+                "fabric": "crepe",
+                "type": "blazer",
+                "pattern": "printed"
+            },
+            "image": ["./assets/images/blazer1.png", "./assets/images/blazer2.png", "./assets/images/blazer3.png"],
+            "reviews": [
+            {
+                "by ": "Kamal ",
+                "comment ": "really love the pattern on this blazer and it is exactly as it looks online "
+            },
+            {
+                "by ": "Simran ",
+                "comment ": "Cute and casual "
+            },
+            {
+                "by ": "Prachi ",
+                "comment ": "I love the fitting of this blazer.Thank you for early shipping."
+            }]
+
+
+        },
+
+        {
+            "id": "c07",
+            "name": "Casual Trousers",
+            "gender": "female",
+            "brand": "Tommy Hilfiger",
+            "price": "800",
+            "desc":
+            {
+                "color": "black",
+
+
+                "fabric": "cotton",
+                "type": "trousers",
+                "pattern": "plain"
+            },
+            "image": ["./assets/images/trouser1.png", "./assets/images/trouser2.png", "./assets/images/trouser3.png"],
+            "reviews": [
+            {
+                "by": "Aditi",
+                "comment": "chic and classy"
+            },
+            {
+                "by": "Mary",
+                "comment": "looking forward to more colours in the same clothing item. I really like the fitting and design of this product."
+            },
+            {
+                "by": "Surbhi",
+                "comment": "The fabric quality was impressive."
+            }]
+
+
+        },
+
+        {
+            "id": "c08",
+            "name": "Crop Top",
+            "gender": "female",
+            "brand": "Vero Moda",
+            "price": "900",
+            "desc":
+            {
+                "color": "pink",
+
+
+                "fabric": "crepe",
+                "type": "top",
+                "pattern": "plain"
+            },
+            "image": ["./assets/images/top1.png ", "./assets/images/top2.png ", "./assets/images/top3.png "],
+            "reviews": [
+                {
+                    "by ": "Meenu ",
+                    "comment ": "The fabric quality was superb,I love the design."
+                },
+                {
+                    "by ": "Ruchi ",
+                    "comment ": "beautiful color,pretty design "
+                },
+                {
+                    "by ": "Swati ",
+                    "comment ": "I really like the ruffles in this top.Thank you for quality service."
+                }
+
+            ]
+
+
+        }
+
+    ],
+    "sports": [
+    {
+        "id": "s01",
+        "name": "Nivia Storm Football - Size: 5",
+        "type": "Football",
+        "brand": "Nivia",
+        "price": 272,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/football_s11.png", "assets/images/football_s11.png", "assets/images/football_s11.png"],
+        "features":
+        {
+            "Material": "Rubber",
+            "color": "White",
+            "Weight": "420"
+        },
+        "reviews": [
+        {
+            "title": "Nice",
+            "comment": "This product is awesome"
+        },
+        {
+            "title": "Rubber will hurt",
+            "comment": "Rubber Moulding will hurt on legs if you dont play with shoes. A bit more bouncy ball. And this line because the review needed min 100 characters"
+        }]
+
+    },
+    {
+        "id": "s02",
+        "name": "Nike FC Barcelona Football",
+        "type": "Football",
+        "brand": "Nike",
+        "price": 300,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/football_s21.png", "assets/images/football_s22.png", "assets/images/football_s23.png"],
+        "features":
+        {
+            "Material": "Rubber",
+            "color": "blue",
+            "Weight": "420"
+        },
+        "reviews": [
+        {
+            "title": "Luv it",
+            "comment": "Is it real"
+        },
+        {
+            "title": "Product as expected",
+            "comment": "Happy 😊"
+        }]
+
+    },
+    {
+        "id": "s03",
+        "name": "SG Optipro Cricket Helmet",
+        "type": "Cricket",
+        "brand": "SG",
+        "price": 979,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/helmet_s31.png", "assets/images/helmet_s32.png", "assets/images/helmet_s33.png"],
+        "features":
+        {
+            "Material": "plastic",
+            "color": "blue"
+        },
+        "reviews": [
+        {
+            "title": "Pretty good",
+            "comment": "The Product was excellent but one problem was that one bolt was missing. It doesn't create any problem but due to that the product was not complete"
+        },
+        {
+            "title": "Must buy!",
+            "comment": "Very good product"
+        }]
+
+    },
+    {
+        "id": "s04",
+        "name": "GS helmet Optipro black (Assorted)",
+        "type": "Cricket",
+        "brand": "GS",
+        "price": 400,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/helmet_s41.png", "assets/images/helmet_s41.png", "assets/images/helmet_s41.png"],
+        "features":
+        {
+            "Material": "plastic",
+            "color": "black"
+        },
+        "reviews": [
+        {
+            "title": "Four Stars",
+            "comment": "Box quality is not good but the product is very good "
+        },
+        {
+            "title": "Good Buy",
+            "comment": "Great Value for money...Good Helmet for club professionals., fits properly without the wobble."
+        }]
+
+    },
+    {
+        "id": "s05",
+        "name": "Wilson Advantage XL 4 3/8 Strung ",
+        "type": "Tennis",
+        "brand": "Wilson",
+        "price": 1793,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/tennis_s51.png", "assets/images/tennis_s52.png", "assets/images/tennis_s53.png"],
+        "features":
+        {
+            "Material": "aluminium",
+            "color": "black"
+        },
+        "reviews": [
+        {
+            "title": "Good",
+            "comment": "Good"
+        },
+        {
+            "title": "Colour mismatch",
+            "comment": "Picture showed green coloured racquet but received red one. It served my purpose but still not happy with this (deliberate) mistake"
+        }]
+
+    },
+    {
+        "id": "s06",
+        "name": "Cosco RADAR TOUR 2.5 Strung  ",
+        "type": "Tennis",
+        "brand": "Cosco",
+        "price": 2729,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/tennis_s61.png", "assets/images/tennis_s62.png", "assets/images/tennis_s63.png"],
+        "features":
+        {
+            "Material": "aluminium",
+            "color": "blue"
+        },
+        "reviews": [
+        {
+            "title": "Four Stars",
+            "comment": "Box quality is not good but the product is very good "
+        },
+        {
+            "title": "Good Buy",
+            "comment": "Great Value for money...Good Helmet for club professionals., fits properly without the wobble."
+        }]
+
+    },
+    {
+        "id": "s07",
+        "name": "Prokyde Crown Cricket Ball ",
+        "type": "Cricket",
+        "brand": "Prokyde",
+        "price": 2300,
+        "warranty": "1yr warranty",
+        "image": ["assets/images/cricket_s71.png", "assets/images/cricket_s72.png", "assets/images/cricket_s73.png"],
+        "features":
+        {
+            "Material": "leather",
+            "color": "red"
+        },
+        "reviews": [
+        {
+            "title": "Good choice",
+            "comment": "Good Quality"
+        },
+        {
+            "title": "Awesome",
+            "comment": "Awesome"
+        }]
+    }]
+}

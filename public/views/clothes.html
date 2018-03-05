@@ -1,0 +1,39 @@
+<div class="row" style="padding-top: 65px">
+    <div class="col-md-2">
+        <div class="row" style="margin-top: 50px;margin-left: 10px">
+            <button type="button" class="btn btn-primary btn-block" ui-sref="mobiles">Mobiles</button>
+            <button type="button" class="btn btn-primary btn-block" ui-sref="clothes">Fashion</button>
+            <button type="button" class="btn btn-primary btn-block" ui-sref="sports">Sports</button>
+        </div>
+        <div class="row" style="margin-top: 30px;margin-left: 10px">
+            Gender:
+            <form>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-change="myFunc()" ng-model="arr[0]" ng-true-value="male">Male</label>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" ng-change="myFunc()" ng-model="arr[1]" ng-true-value="female">female</label>
+                </div>
+            </form>
+        </div>
+        <div class="row" style="margin-left: 10px">
+            <p id="price"><b>Price</b></p>
+            <rzslider rz-slider-model="slider.min" rz-slider-high="slider.max" rz-slider-options="slider.options"></rzslider>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="col-md-3 col-sm-4 col-xs-6s col-lg-3" ng-repeat="x in abc" align="center" ng-click="getClothesMock(x.id)" ui-sref="plpClothes" style="border: 2 ;margin-top: 3%;">
+            <img ng-src="{{x.image[0]}}" class="img-responsive" style="height: 300px;width:auto">
+            <h5>{{x.name}}</h5>
+            <h5>Rs : {{x.price}}</h5>
+            <button type="button" class="btn btn-primary btn-md" style="margin-bottom: 5%;width: 130px">Details</button>
+        </div>
+        <div ng-if="abc.length === 0" >
+            <div class="jumbotron" align="center">
+                <h2>No items found</h2>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+.paddingTop{
+	padding-top: 65px;
+}
+
+.homeCorouselImageSize{
+	height: 200px;
+	width:auto;
+}
+
+.sportsCorousel{
+	height: 150px;
+	width: 150px;
+}
+
+.clothingCorousel{
+	height: 200px;
+	width: auto;
+}
+
+.corouselControl{
+	background-image: none;
+	color: blue;
+}

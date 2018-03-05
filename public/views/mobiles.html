@@ -1,0 +1,40 @@
+<div class="row" style="padding-top: 65px">
+    <!-- {{mobilesMock[0].name}} -->
+    <div class="col-xs-2" style="margin-top: 50px">
+        <div class="row" style="margin-left: 10px">
+            <button type="button" class="btn btn-primary btn-block" ui-sref="mobiles">Mobiles</button>
+            <button type="button" class="btn btn-primary btn-block" ui-sref="clothes">Fashion</button>
+            <button type="button" class="btn btn-primary btn-block" ui-sref="sports">Sports</button>
+        </div>
+        <div class="row" style="margin-top: 30px;margin-left: 10px">
+            Brands:
+            <br>
+            <input type="checkbox" ng-model="arr[0]" ng-true-value="apple"> apple
+            <br>
+            <input type="checkbox" ng-model="arr[1]" ng-true-value="samsung"> samsung
+            <br>
+            <input type="checkbox" ng-model="arr[2]" ng-true-value="htc"> htc
+        </div>
+        <div class="row" style="margin-top: 30px;margin-left: 10px">
+            <p id="price"><b>Price</b></p>
+            <rzslider rz-slider-model="slider.min" rz-slider-high="slider.max" rz-slider-options="slider.options"></rzslider>
+        </div>
+    </div>
+    <div class="col-xs-10">
+        <div class="col-md-3 col-xs-6 col-sm-4 col-lg-3" ng-repeat="x in mobilesMock | selectedTags:arr"  align="center" ng-click="mobileClick(x.id)" ui-sref="plp" style=" margin-top: 3%;">
+            <img ng-src="{{x.image[0]}}" class="img-responsive" style="height: 300px;width:auto">
+            <h5>{{x.name}}</h5>
+            <h5>Rs : {{x.price}}</h5>
+            <button type="button" class="btn btn-primary btn-block" ui-sref="mobiles" style="width: 100px">Details</button>
+            <br>
+        </div>
+        <!-- <div>
+            <li ng-if="mobilesMock.length === 0">No Items Found</li>
+        </div> -->
+        <div ng-if="mobilesMock.length === 0" >
+            <div class="jumbotron" align="center">
+                <h2>No items found</h2>
+            </div>
+        </div>
+    </div>
+</div>
